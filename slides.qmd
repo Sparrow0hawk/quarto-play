@@ -1,0 +1,43 @@
+---
+pagetitle: Habits
+format: 
+  revealjs: 
+    incremental: true
+---
+
+# Habits
+
+## Getting up
+
+- turn off alarm
+- Get out of bed
+
+## Going to sleep
+
+- Get into bed
+- Count sheep 🐑
+
+# Some habit
+
+## A sub habit thing
+
+::: {.incremental}
+
+- Cook pasta
+- Add sauce
+- PROFIT!
+
+:::
+
+# Aquamarine slide {background-color="aquamarine"}
+
+::: {.nonincremental}
+- Not incremental listing
+- Items
+:::
+
+# Custom footer {background-color="red"}
+
+::: footer
+Amazing custom footer thing
+:::
