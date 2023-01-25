@@ -15,3 +15,10 @@
   $ .venv/bin/activate
   (venv) $ quarto render hello.qmd
   ```
+
+## Notes
+
+- For every quarto markdown file `.qmd` it creates a folder `FILENAME_files` that contains assets relating to that html file
+  - figure images
+  - associated javascript and css
+  I've ignored these in .gitignore as if we wanted to serve this on GitHub pages these can be generated through an Action.
