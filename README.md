@@ -22,3 +22,6 @@
   - figure images
   - associated javascript and css
   I've ignored these in .gitignore as if we wanted to serve this on GitHub pages these can be generated through an Action.
+- Using revealjs works nicely
+  - setting a custom footer doesn't respond well with different background colours
+  - `pagetitle` lets you set page title in `<head>` without auto title slide
