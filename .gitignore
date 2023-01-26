@@ -3,3 +3,5 @@ venv
 *.html
 
 /.quarto/
+
+!publish_dir/*
