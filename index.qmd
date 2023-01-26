@@ -1,0 +1,10 @@
+---
+title: "Quarto Play Home"
+format: html
+---
+
+## Examples
+
+- [Hello](./hello)
+- [Computations](./computation)
+- [Slides](./slides)
