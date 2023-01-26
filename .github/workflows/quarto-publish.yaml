@@ -32,10 +32,12 @@ jobs:
           path: . # By default, the current working dir is used i.e `quarto render .`
 
       - name: create publish_dir
-        shell: "mkdir publish_dir"
+        shell: bash
+        run: "mkdir publish_dir"
 
       - name: move rendered content to publish_dir
-        shell: "mv *.html *_files publish_dir"
+        shell: bash 
+        run: "mv *.html *_files publish_dir"
     
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3.6.1
